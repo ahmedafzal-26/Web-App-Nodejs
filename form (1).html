@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="form_style.css"> 
+    <title>Login</title>
+</head>
+
+<body>
+    <h2>Login</h2>
+
+    <div>
+        <form id="userInfoForm" action="/submit" method="POST">
+
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required maxlength="20">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required maxlength="20">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required maxlength="10">
+
+            <label for="eircode">Eircode</label>
+            <input type="text" id="eircode" name="eircode" required maxlength="6">
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

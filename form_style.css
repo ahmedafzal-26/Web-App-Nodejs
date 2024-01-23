@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(169, 231, 210);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Reset default margin */
+  }
+  
+  #userInfoForm {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 4px gray;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  label {
+    text-align: left;
+    width: 100%; /* Change width for labels to utilize full space */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+    display: block; /* Ensure labels are on a new line */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 8px; /* Increase padding for better readability */
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px; /* Add margin on top for separation */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Change color for better visibility */
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Reset default margin and padding for body, h2, form */
+  body,
+  h2,
+  form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
